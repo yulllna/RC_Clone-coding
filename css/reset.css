@@ -6,7 +6,7 @@ fieldset,img{border:0 none; vertical-align: bottom;}
 dl,ul,ol,li{list-style:none}
 input,select,textarea,button{border-radius:0;vertical-align:middle}
 body{background:#fff;direction:ltr;-webkit-text-size-adjust:none}
-body,th,td,input,select,textarea,button {font-size:12px;line-height:1.5;font-family:'Noto Sans KR','Malgun Gothic','맑은 고딕',dotum,'돋움',sans-serif;color:#222;}
+body,th,td,input,select,textarea,button {font-size:16px;line-height:1.5;font-family:'Noto Sans KR','Malgun Gothic','맑은 고딕',dotum,'돋움',sans-serif;color:#222;}
 a{color:#222;text-decoration:none}
 a:active{background-color:transparent}
 address,caption,cite,code,dfn,em,var{font-style:normal;font-weight:normal}
