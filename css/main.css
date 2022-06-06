@@ -1,0 +1,23 @@
+.mobile_container {
+    display: none;
+}
+.visually_hidden {
+    visibility: hidden;
+}
+#header {
+    
+}
+#header .container {
+    max-width: 1200px;
+    height: 100%;
+    padding: 0 10px;
+    margin: 0 auto;
+    background: pink;
+}
+.navbar {
+    height: 64px;
+    box-shadow: 0 2px 4px 0 hsl(0deg 0% 81% / 50%);
+}
+#main {
+
+}
