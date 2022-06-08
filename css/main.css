@@ -38,6 +38,7 @@
 }
 .nav-item {
     padding: 0.5rem 1rem;
+    position: relative;
 }
 .nav-item a {
     color: #4a4a4a;
@@ -76,8 +77,20 @@
     color: #fff;
 }
 
+/* navigation */
+.navbar-dropdown {
+    width: 180px;
+    height: 410px;
+    border-radius: 0;
+    box-shadow: 8px 5px 8px 1px rgb(0 10 18 / 10%), 0 0 0 1px rgb(0 10 18 / 10%);
+    display: none;
+}
+.navbar-dropdown .sub-menu {
+    display: none;
+}
+
 /* main */
-section:not(.main-banner, .apply, .main-tags) {
+section.mainpage:not(.main-banner, .apply, .main-tags) {
     padding-top: 24px;
     padding-bottom: 24px;
 }
