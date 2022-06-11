@@ -98,7 +98,53 @@ section:not(.main-banner, .apply, .main-tags) {
 .slider-banner {
     width: 100%;
     height: 320px;
-    background: cornflowerblue
+    background-color: #02afff;
+}
+.slider-banner > .container {
+    position: relative;
+}
+.main-banner_left {
+    position: absolute;
+    left: 10px;
+    top: 44%;
+    transform: translateY(-50%);
+    max-width: 600px;
+}
+.hero-tags {
+    display: inline-block;
+    margin-bottom: 16px;
+    color:#000000;
+    background-color:#ffe401;
+    border-radius: 4px;
+}
+.hero-tags > div {
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    height: 24px;
+    font-size: .875rem;
+    font-weight: 700;
+}
+.main-banner_left > h1, .main-banner_left > p {
+    color: #ffffff;
+}
+.main-banner_left > h1 {
+    margin-bottom: 8px;
+    font-size: 2rem;
+}
+.main-banner_right {
+    height: 100%;
+    width: 737px;
+    position: absolute;
+    right: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-banner_right > img {
+    width: 100%;
+    height: 100%;
 }
 .slider-controller {
     width: 100%;
