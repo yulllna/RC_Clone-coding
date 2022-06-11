@@ -72,7 +72,7 @@
     padding: 4px;
     border-radius: 4px;
 }
-.join-button {
+.nav-item > .join-button {
     background-color: #ff7867;
     color: #fff;
 }
